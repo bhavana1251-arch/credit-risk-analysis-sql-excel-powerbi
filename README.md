@@ -95,16 +95,6 @@ Default Rate % = DIVIDE([Total Defaults], [Total Loans], 0)
 Avg Loan Amount = AVERAGE(credit_clean_text[loan_amnt])
 Avg Interest Rate = AVERAGE(credit_clean_text[loan_int_rate])
 Avg Income = AVERAGE(credit_clean_text[person_income])
-
-
----
-## 🧾 **License**
-This project is licensed under the [MIT License](LICENSE).  
-You’re free to view and learn from it.
-
 ---
 
-## 📬 **Contact**
-👩‍💻 **Bhavana Venkatesha Murthy**  
-📧 bhavana.1251@email.com  
-🔗 GitHub: [https://github.com/bhavana1251-arch](https://github.com/bhavana1251-arch)
+
