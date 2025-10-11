@@ -88,8 +88,9 @@ All transformations were performed in SQL before loading the clean dataset into 
 ---
 
 > 📝 **Note:**  
-> If the Case Study PDF doesn’t open directly on GitHub, click **“Download”** or [view it here](https://github.com/bhavana1251-arch/credit-risk-analysis-sql-excel-powerbi/blob/main/docs/credit_risk_case.study.pdf).  
+> If the Case Study PDF doesn’t open directly on GitHub, click **“Download”** 
 > GitHub sometimes disables PDF previews depending on browser or file size.
+
 ---
 ## 🧾 **License**
 This project is licensed under the [MIT License](LICENSE).  
