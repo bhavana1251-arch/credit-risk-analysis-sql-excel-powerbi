@@ -85,8 +85,8 @@ All transformations were performed in SQL before loading the clean dataset into 
 | `docs/dashboard_main.png` | Executive dashboard screenshot |
 | `docs/dashboard_insights.png` | Insights & Recommendations screenshot |
 
----
 
+---
 ## 🧾 **License**
 This project is licensed under the [MIT License](LICENSE).  
 You’re free to view and learn from it.
