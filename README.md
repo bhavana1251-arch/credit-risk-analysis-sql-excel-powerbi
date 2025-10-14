@@ -21,7 +21,7 @@ This project mirrors how analysts in banking evaluate borrower profiles, predict
 ---
 
 ### 📊 Dashboard Preview  
-*(Main dashboard — centered and scaled for a professional look)*  
+ 
 
 <p align="center">
   <img src="dashboard_main.png" alt="Credit Risk Dashboard" width="75%" />
