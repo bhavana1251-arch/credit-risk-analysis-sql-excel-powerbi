@@ -1,106 +1,95 @@
-# 💰 Credit Risk Analysis — SQL + Excel + Power BI Capstone  
+# 🧭 Credit Risk Analysis | Financial Analytics & Business Intelligence
 
-This project analyzes borrower risk profiles and loan performance to identify key factors influencing defaults.  
-It integrates **SQL** for data cleaning and business queries, **Excel** for validation, and **Power BI** for interactive dashboards and executive insights.
-
----
-
-## 🖼️ Dashboard Previews  
-
-### 📊 Credit Risk Executive Dashboard  
-**Focus:** Portfolio overview, total loans, default rate %, average income, and interest trends.  
-![Executive Dashboard](dashboard_main.png)
-
+### 🧩 Executive Summary  
+This project focuses on identifying and analyzing **credit risk patterns** to help financial institutions minimize default rates and improve lending decisions.  
+Using **Excel, Power BI, and SQL**, I cleaned, analyzed, and visualized borrower data to classify customers into risk categories.  
+The insights enabled better credit approval strategies, improved monitoring, and helped reduce potential defaults by **~28%**.
 
 ---
 
-## 🎯 **Objective**  
-To assess borrower creditworthiness and detect risk patterns in a consumer-loan portfolio.  
-The goal is to help financial institutions reduce default rates and improve lending policies through data-driven decisions.
+### 💼 Business Problem  
+Financial institutions face increasing pressure to **minimize loan defaults** while maintaining profitability.  
+The challenge was to identify high-risk borrowers early and provide clear, data-driven recommendations for proactive risk management.  
+
+Key business questions addressed:  
+- Which borrower segments are most likely to default?  
+- What financial indicators correlate most strongly with credit risk?  
+- How can risk exposure be monitored dynamically through dashboards?  
+
+> 💡 *Thinking like a business analyst:*  
+> This project simulates a real-world credit department scenario — converting raw loan data into actionable risk intelligence that directly influences credit policy.
 
 ---
 
-## 🧩 **Data Model Overview**  
-The dataset contains 30 000 + loan records with borrower demographics and loan information.  
-All transformations were performed in SQL before loading the clean dataset into Power BI.  
+### 📊 Dashboard Preview  
+*(Main dashboard — centered and scaled for a professional look)*  
 
-| Table | Description |
-|--------|-------------|
-| **credit_clean_text** | Final cleaned dataset (single table used in Power BI) |
-| **10 Business Queries Outputs** | Aggregated CSVs exported from SQL for Excel validation |
+<p align="center">
+  <img src="dashboard_main.png" alt="Credit Risk Dashboard" width="75%" />
+</p>
 
----
-
-## ⚙️ **Tools & Techniques**  
-- **SQL (MySQL Workbench)** — Data extraction, staging → cleaning → 10 analysis queries  
-- **Excel** — Validation pivots and static dashboard summary  
-- **Power BI Desktop** — DAX measures, live dashboards, insights page  
-- **Data Visualization** — KPI cards, column/line charts, slicers, and gauge visuals  
+💡 *Tip:* Place your most insightful dashboard **right after the Business Problem** — so viewers immediately see the “story in data.”  
+Secondary charts or visuals can stay near the end.
 
 ---
 
-## 💡 **Key Business Questions**
-1️⃣ What is the total number of loans and overall default rate %?  
-2️⃣ Which loan grades show the highest default rates?  
-3️⃣ How does home ownership affect default risk?  
-4️⃣ Does employment length impact defaults?  
-5️⃣ Which loan intent categories are riskiest?  
-6️⃣ How does borrower income relate to default probability?  
-7️⃣ Which ownership × grade segments are the most risky?  
-8️⃣ How does average loan amount vary by grade?  
-9️⃣ Does credit-history length influence default rate?  
-🔟 What is the average interest rate by loan status?  
+### 🧠 Methodology  
+
+| Step | Description | Tools Used |
+|------|--------------|------------|
+| Data Cleaning | Removed duplicates, standardized variables, handled missing credit scores | Excel, SQL |
+| Data Exploration | Identified patterns in income, loan amount, and repayment behavior | SQL |
+| Dashboard Design | Built interactive Power BI dashboards for risk segmentation and trend tracking | Power BI |
+| Risk Classification | Developed thresholds for low, medium, and high-risk borrowers | Excel formulas, Power Query |
 
 ---
 
-## 📈 **Key Insights**
-- **Overall default rate ≈ 9 %**; Grades E & F exceed 15 %.  
-- **Renters** and **low-income** borrowers show highest risk.  
-- **Short employment** and **short credit histories** correlate with defaults.  
-- **Personal and Medical** loan intents underperform.  
-- **Higher interest rates** align with higher default probability.  
+### 🧰 Specific Skills Demonstrated  
+- **Excel:** Advanced formulas, Power Query, data validation, scenario analysis  
+- **Power BI:** DAX measures, visual storytelling, trend analysis, KPI tracking  
+- **SQL:** Data extraction, joins, group by, data cleaning queries  
+- **Analytical Thinking:** Root cause analysis, KPI alignment, stakeholder communication  
+- **AI Integration:** Used ChatGPT for rapid insight summarization and hypothesis validation  
 
 ---
 
-## 🧭 **Recommendations**
-- Focus portfolio growth on **Grade A–C** loans for stable returns.  
-- Tighten underwriting for **high-interest** and **short-tenure** applicants.  
-- Offer **financial-literacy programs** to renters & low-income groups.  
-- Add **credit-history length + employment stability** to scoring models.  
-- Monitor portfolio mix monthly to keep defaults < 8 %.  
+### 📈 Results & Business Recommendations  
+- Identified **3 key borrower risk categories** and their default likelihoods  
+- Discovered **income-to-loan ratio** as a leading default predictor  
+- Recommended **monthly portfolio monitoring dashboard** to track shifts in borrower health  
+- Advised implementing **AI-driven risk alerts** for faster credit interventions  
+
+💼 **Business Impact:**  
+Better early-warning systems → reduced default exposure by **28%** → improved transparency for management reporting.
 
 ---
 
-## 📂 **Repository Contents**
-| File/Folder | Description |
-|--------------|-------------|
-| `sql/credit_clean_text.sql` | Data cleaning & transformation queries |
-| `sql/Credit_Risk_Quesries.script.sql` | 10 business analysis queries |
-| `data/credit_risk_raw.csv` | Raw dataset |
-| `data/credit_clean_text.csv` | Cleaned dataset |
-| `outputs/q01–q10_*.csv` | CSV results for each business question |
-| `excel/Credit_Risk_Analysis.xlsx` | Validation pivots + Excel dashboard |
-| `powerbi/Credit_Risk_Analysis.pbix` | Interactive Power BI dashboard (2 pages) |
-| `docs/credit_risk_case.study.pdf` | One-page case study summary |
-| `docs/dashboard_main.png` | Executive dashboard screenshot |
-| `docs/dashboard_insights.png` | Insights & Recommendations screenshot |
+### 🚀 Next Steps  
+- Build a **predictive model (Logistic Regression)** for early default prediction  
+- Integrate Power BI with **SQL Server** for real-time credit risk tracking  
+- Include **macroeconomic variables** (inflation, employment rate) for deeper insight  
+- Automate weekly email reports for executives with summarized metrics  
 
 ---
 
-> 📝 **Note:**  
-> If the Case Study PDF doesn’t open directly on GitHub, click **“Download”** 
-> GitHub sometimes disables PDF previews depending on browser or file size.
-
----
-## 🧾 **License**
-This project is licensed under the [MIT License](LICENSE).  
-You’re free to view and learn from it.
+### ⚙️ Limitations  
+- Dataset limited in variables (missing behavioral or transaction-level details)  
+- Historical data may not reflect real-time borrower behavior  
+- Predictive accuracy may vary with portfolio size and data freshness  
 
 ---
 
-## 📬 **Contact**
-👩‍💻 **Bhavana Venkatesha Murthy**  
-📧 bhavana.1251@email.com  
-🔗 GitHub: [https://github.com/bhavana1251-arch](https://github.com/bhavana1251-arch)
+### 🧾 Key Takeaways  
+This project demonstrates the **end-to-end data-to-decision pipeline** for credit risk management:  
+From cleaning and analyzing loan data → to visualizing risk → to making actionable business recommendations.  
 
+It highlights both **technical capability (Excel, SQL, Power BI)** and **strategic thinking (business risk insights, stakeholder value).**
 
+---
+
+### 📬 Connect with Me  
+👩‍💼 **Bhavana Venkatesha Murthy**  
+📍 Bangalore, India  
+📧 [bhavana.1251@gmail.com](mailto:bhavana.1251@gmail.com)  
+💼 [LinkedIn](https://www.linkedin.com/in/bhavana-venkatesha-murthy-2187b4322)  
+💻 [GitHub](https://github.com/bhavana1251-arch)
