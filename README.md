@@ -16,9 +16,8 @@ Key business questions addressed:
 - What financial indicators correlate most strongly with credit risk?  
 - How can risk exposure be monitored dynamically through dashboards?  
 
-> 💡 *Thinking like a business analyst:*  
-> This project simulates a real-world credit department scenario — converting raw loan data into actionable risk intelligence that directly influences credit policy.
-
+> 💡 Risk Analyst mindset:
+This project mirrors how analysts in banking evaluate borrower profiles, predict defaults, and use data to shape credit policy — turning financial risk into measurable strategy.
 ---
 
 ### 📊 Dashboard Preview  
