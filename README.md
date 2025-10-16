@@ -27,8 +27,6 @@ This project mirrors how analysts in banking evaluate borrower profiles, predict
   <img src="dashboard_main.png" alt="Credit Risk Dashboard" width="75%" />
 </p>
 
-💡 *Tip:* Place your most insightful dashboard **right after the Business Problem** — so viewers immediately see the “story in data.”  
-Secondary charts or visuals can stay near the end.
 
 ---
 
